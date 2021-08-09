@@ -37,7 +37,7 @@ public class DBService {
 		OS os2 = new OS(null, Prioridade.MEDIA, "OS02", Status.ANDAMENTO, t3, c2);
 		OS os3 = new OS(null, Prioridade.BAIXA, "OS03", Status.ANDAMENTO, t4, c1);
 		OS os4 = new OS(null, Prioridade.MEDIA, "OS04", Status.ANDAMENTO, t2, c2);
-		OS os5 = new OS(null, Prioridade.MEDIA, "OS05", Status.ANDAMENTO, t3, c2);
+		OS os5 = new OS(null, Prioridade.MEDIA, "OS05", Status.ANDAMENTO, t3, c3);
 
 		t1.getList().add(os1);
 		c1.getList().add(os1);
