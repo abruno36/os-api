@@ -33,11 +33,11 @@ public class DBService {
 		Cliente c1 = new Cliente(null, "Betina Campos", "661.893.040-52", "(11) 97777-5555");
 		Cliente c2 = new Cliente(null, "Samuel Paes", "671.696.480-08", "(11) 97777-3333");
 		Cliente c3 = new Cliente(null, "Bernardo Elisios", "671.696.480-08", "(11) 97777-9999");
-		OS os1 = new OS(null, Prioridade.ALTA, "OS01", Status.ANDAMENTO, t1, c1);
-		OS os2 = new OS(null, Prioridade.MEDIA, "OS02", Status.ANDAMENTO, t3, c2);
-		OS os3 = new OS(null, Prioridade.BAIXA, "OS03", Status.ANDAMENTO, t4, c1);
-		OS os4 = new OS(null, Prioridade.MEDIA, "OS04", Status.ANDAMENTO, t2, c2);
-		OS os5 = new OS(null, Prioridade.MEDIA, "OS05", Status.ANDAMENTO, t3, c3);
+		OS os1 = new OS(null, Prioridade.ALTA, "Trocar a placa mãe", Status.ANDAMENTO, t1, c1);
+		OS os2 = new OS(null, Prioridade.MEDIA, "Ativar antivirus Macfee", Status.ANDAMENTO, t3, c2);
+		OS os3 = new OS(null, Prioridade.BAIXA, "Limpeza notebook e colocar SSD", Status.ANDAMENTO, t4, c1);
+		OS os4 = new OS(null, Prioridade.MEDIA, "Instalação Windows 10", Status.ANDAMENTO, t2, c2);
+		OS os5 = new OS(null, Prioridade.MEDIA, "Trocar tela - com avarias", Status.ANDAMENTO, t3, c3);
 
 		t1.getList().add(os1);
 		c1.getList().add(os1);
